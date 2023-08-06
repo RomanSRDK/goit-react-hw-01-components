@@ -1,0 +1,26 @@
+.friendList {
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #E5EAF1;
+    box-shadow: 0 4px 8px rgba(111, 106, 106, 0.6), 0 0 4px rgba(111, 106, 106, 0.4);
+
+  }
+  
+  .item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
